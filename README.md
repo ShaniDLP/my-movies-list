@@ -29,11 +29,10 @@ To run this project locally, you need to have the following installed:
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yourusername/top-movies-app.git
-   cd top-movies-app
-
-   ```
+```bash
+git clone https://github.com/ShaniDLP/my-movies-list.git
+cd movies-list
+```
 
 2. **Install Dependencies**
 
@@ -58,29 +57,11 @@ Add the following line to the file:
 VUE_APP_API_KEY= your_tmdb_api_key_here
 ```
 
-Replace your_tmdb_api_key_here with your actual API key from The Movie Database (TMDB).
+Replace your_tmdb_api_key_here with your actual API key from [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
 ## Usage
 
 Run the Development Server
-Start the development server by running:
-
-Using npm:
-
-```bash
-npm run serve
-```
-
-Or using Yarn:
-
-```bash
-yarn serve
-```
-
-The application should now be running on http://localhost:8080.
-
-4. **_Run the Development Server_**
-
 Start the development server by running:
 
 ```bash
@@ -88,6 +69,8 @@ npm run serve
 # or
 yarn serve
 ```
+
+The application should now be running on http://localhost:8080.
 
 ## Features
 
